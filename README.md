@@ -111,3 +111,6 @@ Additional sensors can be added to monitor more quality parameters (e.g., Temper
 
 - ### Alert System:
 Set up alerts (via SMS or push notifications) when water quality drops below acceptable levels.
+
+## Want to Understand
+Read the Thesis file which is uploaded to give you a much better understanding on the project itself.
