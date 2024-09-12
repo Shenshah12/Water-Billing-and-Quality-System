@@ -5,21 +5,21 @@ This application is a simple demo of a LoRa modem connecting to a Network server
 ### Target Board: 
 - STM32WLxx Nucleo (NUCLEO-WL55JC1, NUCLEO-WL55JC2)
 
-License Information
-Copyright (c) 2020-2021 STMicroelectronics. All rights reserved.
+## License Information
+### Copyright (c) 2020-2021 STMicroelectronics. All rights reserved.
 
 This software is licensed under terms that can be found in the LICENSE file in the root directory. If no LICENSE file is available, the software is provided "AS-IS."
 
-Features
+## Features
 This directory contains the source files for a LoRa application device that sends sensor data to a LoRa Network server. Data is transmitted periodically via timer events or upon button press, depending on the configuration.
 
-Keywords
-Applications
-SubGHz_Phy
-LoRaWAN
-End Node
-Single Core
-Directory Contents
+## Keywords
+- Applications
+- SubGHz_Phy
+- LoRaWAN
+- End Node
+- Single Core
+- Directory Contents
 Here is a breakdown of the important source files:
 
 Core/Inc/adc.h: Function prototypes for adc.c
