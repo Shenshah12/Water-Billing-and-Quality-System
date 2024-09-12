@@ -41,7 +41,7 @@ Video 2: [Connecting Pipedream to Firebase Database](https://www.youtube.com/wat
 - Go to the Firebase Console and check your Realtime Database to ensure that the data from the STM hardware is being stored correctly.
 ## Diagram of Data Flow
 
-## STM Hardware → The Things Stack → Pipedream → Firebase Database
+### STM Hardware → The Things Stack → Pipedream → Firebase Database
 ## Troubleshooting
 - ### Things Stack Connectivity:
 Ensure your LoRaWAN module is correctly configured and the device is registered on The Things Stack.
