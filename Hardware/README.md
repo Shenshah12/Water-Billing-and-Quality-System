@@ -106,7 +106,8 @@ This example is compatible with STM32CubeMX, allowing some middleware and applic
 - When regenerating the project using the .ioc file, make sure to uncheck "Use Default Firmware Location" and replace the firmware path with your STM32CubeWL firmware package directory (e.g., C:\myDir\STM32Cube_FW_WL_V1.3.0\).
 
 ## Combining with Azure ThreadX RTOS
-This example can be integrated with Azure ThreadX RTOS using STM32CubeMX. Refer to the video tutorial, "STM32WL - How to port an existing RF application on Azure ThreadX RTOS".
+This example can be integrated with Azure ThreadX RTOS using STM32CubeMX. Refer to the video tutorial, "[STM32WL - How to port an existing RF application on Azure ThreadX RTOS](https://www.youtube.com/playlist?list=PLnMKNibPkDnE2eaR-ZGM3ZJXadyQLtTpX)
+".
 
 © COPYRIGHT STMicroelectronics
 
