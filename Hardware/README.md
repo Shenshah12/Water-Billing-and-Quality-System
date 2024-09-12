@@ -19,29 +19,51 @@ This directory contains the source files for a LoRa application device that send
 - LoRaWAN
 - End Node
 - Single Core
-- Directory Contents
+
+## Directory Contents
 Here is a breakdown of the important source files:
 
-Core/Inc/adc.h: Function prototypes for adc.c
-Core/Inc/adc_if.h: Header for ADC interface configuration
-Core/Inc/dma.h: Function prototypes for dma.c
-Core/Inc/flash_if.h: Definitions for Flash Interface functionalities
-Core/Inc/gpio.h: Function prototypes for gpio.c
-Core/Inc/main.h: Header for main.c containing common application definitions
-Core/Inc/platform.h: Header for general hardware configuration
-Core/Inc/rtc.h: Function prototypes for rtc.c
-Core/Inc/stm32wlxx_hal_conf.h: HAL configuration file
-Core/Inc/stm32wlxx_it.h: Interrupt handler headers
-Core/Inc/sys_app.h: Function prototypes for system application management
-Core/Inc/timer_if.h: Timer interface configuration
-LoRaWAN/App/lora_app.h: LoRa application header
-LoRaWAN/Target/lorawan_conf.h: LoRaWAN middleware configuration
-Core/Src/adc.c: Configuration for ADC instances
-Core/Src/gpio.c: GPIO configuration code
-Core/Src/rtc.c: Configuration for RTC instances
-Core/Src/usart.c: Configuration for USART instances
-LoRaWAN/App/app_lorawan.c: LoRaWAN middleware application
+### Core/Inc/adc.h: 
+Function prototypes for adc.c
+### Core/Inc/adc_if.h: 
+Header for ADC interface configuration
+### Core/Inc/dma.h:
+Function prototypes for dma.c
+### Core/Inc/flash_if.h: 
+Definitions for Flash Interface functionalities
+### Core/Inc/gpio.h: 
+Function prototypes for gpio.c
+### Core/Inc/main.h: 
+Header for main.c containing common application definitions
+### Core/Inc/platform.h: 
+Header for general hardware configuration
+### Core/Inc/rtc.h: 
+Function prototypes for rtc.c
+### Core/Inc/stm32wlxx_hal_conf.h: 
+HAL configuration file
+### Core/Inc/stm32wlxx_it.h: 
+Interrupt handler headers
+### Core/Inc/sys_app.h:
+Function prototypes for system application management
+### Core/Inc/timer_if.h: 
+Timer interface configuration
+### LoRaWAN/App/lora_app.h: 
+LoRa application header
+### LoRaWAN/Target/lorawan_conf.h: 
+LoRaWAN middleware configuration
+### Core/Src/adc.c: 
+Configuration for ADC instances
+### Core/Src/gpio.c: 
+GPIO configuration code
+### Core/Src/rtc.c: 
+Configuration for RTC instances
+### Core/Src/usart.c: 
+Configuration for USART instances
+### LoRaWAN/App/app_lorawan.c: 
+LoRaWAN middleware application
+
 Hardware and Software Environment
+
 Supported Boards
 STM32WLxx Nucleo boards:
 NUCLEO-WL55JC1 (High-Band)
