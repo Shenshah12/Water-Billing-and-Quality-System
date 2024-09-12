@@ -107,7 +107,7 @@ Fetch and display data to customers and admins.
 Currently, the web app logic is derived from the mobile app. The web app should be expanded to provide a comprehensive interface for both admin and customer views.
 
 - ### Integration with More Sensors:
-Additional sensors can be added to monitor more quality parameters (e.g., pH levels, contaminants).
+Additional sensors can be added to monitor more quality parameters (e.g., Temperature, Salinity).
 
 - ### Alert System:
 Set up alerts (via SMS or push notifications) when water quality drops below acceptable levels.
