@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124422196270",
+    "project_id": "digital-water-billing-system",
+    "storage_bucket": "digital-water-billing-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124422196270:android:0de180b99f5489d8eaa3bf",
+        "android_client_info": {
+          "package_name": "com.example.appofficial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnMzNmXXEjmg7B6E_HjF0EaDicSpBbnIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
