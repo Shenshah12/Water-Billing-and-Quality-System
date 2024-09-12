@@ -40,13 +40,16 @@ To fetch real-time data from the Firebase database.
 ## App Screens
 ### Login Screen:
 Customers can log in using their registered email and password.
+
 ![Login](https://github.com/user-attachments/assets/a61bc85e-c95c-45e9-9c6e-d400935e962d)
 
 ### Dashboard:
 Shows Monthly Water Usage and the Current Bill based on consumption.
+
 ![Dashboard](https://github.com/user-attachments/assets/900d87ab-4084-48a8-a434-ef742a821908)
 ### Profile:
-Shows Profile of the Customer.
+Shows Profile of the  respective Customer.
+
 ![Profile](https://github.com/user-attachments/assets/4634a558-1943-41ca-af36-4c73fe5dde35)
 ### Usage History:
 Allows customers to view their past water consumption information.
