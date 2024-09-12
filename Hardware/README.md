@@ -62,46 +62,50 @@ Configuration for USART instances
 ### LoRaWAN/App/app_lorawan.c: 
 LoRaWAN middleware application
 
-Hardware and Software Environment
+## Hardware and Software Environment
 
-Supported Boards
-STM32WLxx Nucleo boards:
-NUCLEO-WL55JC1 (High-Band)
-NUCLEO-WL55JC2 (Low-Band)
-Board Setup
-Connect the Nucleo board to your PC using a USB cable (Type-A to Micro-B) via the ST-LINK connector.
-Ensure that the ST-LINK connector jumpers are properly fitted.
-Software Setup
-Modify the following configuration files if needed:
-sys_conf.h
-radio_conf.h
-lorawan_conf.h
-lora_app.c, lora_app.h
-Commissioning.h, se-identity.h
-mw_log_conf.h
-main.h
+### Supported Boards
+- STM32WLxx Nucleo boards:
+- #### NUCLEO-WL55JC1 (High-Band)
+- #### NUCLEO-WL55JC2 (Low-Band)
+### Board Setup
+- Connect the Nucleo board to your PC using a USB cable (Type-A to Micro-B) via the ST-LINK connector.
+- Ensure that the ST-LINK connector jumpers are properly fitted.
+### Software Setup
+- Modify the following configuration files if needed:
+- #### sys_conf.h
+- #### radio_conf.h
+- #### lorawan_conf.h
+- #### lora_app.c, lora_app.h
+- #### Commissioning.h, se-identity.h
+- #### mw_log_conf.h
+- #### main.h
+##### 
 Note: Ensure that the region and class chosen in lora_app.h are compatible with lorawan_conf.h.
 
-How to Use the Example
-Open your preferred development toolchain.
-Rebuild all the files and load the binary image onto the target board.
-Run the application.
-Open a terminal with the following UART settings:
-Baud Rate: 115200
-Data Bits: 8
-Stop Bit: 1
-No Parity, No Flow Control
-Monitor the data sent to the LoRa Network.
-Debugging
-Enable debugging by setting the flag DEBUGGER_ENABLED to 1 in sys_conf.h.
-Optionally, disable low power mode by setting the flag LOW_POWER_DISABLE to 1.
-Compile, download, and attach a debugger to the application.
-Modifying RF Middleware and Application Settings Using STM32CubeMX
+## How to Use the Example
+1. Open your preferred development toolchain.
+2. Rebuild all the files and load the binary image onto the target board.
+3. Run the application.
+4. Open a terminal with the following UART settings:
+- Baud Rate: 115200
+-  Data Bits: 8
+-  top Bit: 1
+-   No Parity, No Flow Control
+5. Monitor the data sent to the LoRa Network.
+
+## Debugging
+1. Enable debugging by setting the flag DEBUGGER_ENABLED to 1 in sys_conf.h.
+2. Optionally, disable low power mode by setting the flag LOW_POWER_DISABLE to 1.
+3. Compile, download, and attach a debugger to the application.
+4. 
+## Modifying RF Middleware and Application Settings Using STM32CubeMX
 This example is compatible with STM32CubeMX, allowing some middleware and application settings to be modified via the GUI. However, note the following:
 
-The .ioc file is provided for opening the project in STM32CubeMX v6.7.0 or higher.
-When regenerating the project using the .ioc file, make sure to uncheck "Use Default Firmware Location" and replace the firmware path with your STM32CubeWL firmware package directory (e.g., C:\myDir\STM32Cube_FW_WL_V1.3.0\).
-Combining with Azure ThreadX RTOS
+- The .ioc file is provided for opening the project in STM32CubeMX v6.7.0 or higher.
+- When regenerating the project using the .ioc file, make sure to uncheck "Use Default Firmware Location" and replace the firmware path with your STM32CubeWL firmware package directory (e.g., C:\myDir\STM32Cube_FW_WL_V1.3.0\).
+
+## Combining with Azure ThreadX RTOS
 This example can be integrated with Azure ThreadX RTOS using STM32CubeMX. Refer to the video tutorial, "STM32WL - How to port an existing RF application on Azure ThreadX RTOS".
 
 © COPYRIGHT STMicroelectronics
